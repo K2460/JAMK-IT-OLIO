@@ -14,11 +14,15 @@ namespace JAMK.IT
         //properties
         public string Brand { get; set; }
         public string Model { get; set; }
+        //taulukon koko on kiinteä
         public Tyre[] Tyres { get; }
+        //tyypitetty lista on dynaaminen
+        public List<IT.Tyre> Renkaat;
         //constructors
         public Vehicle()
         {
             Tyres = new Tyre[maxTyres];
+            Renkaat = new List<IT.Tyre>();
         }
         //methods
         public void AddTyre(Tyre tyre)
@@ -34,6 +38,11 @@ namespace JAMK.IT
                 Console.WriteLine("Ei sovi enää uusia renkaita, sorry");
             }
         }
+        //metodi jolla lisätään listaan uusi rengas
+        public void AddTyreToList(Tyre tyre)
+        {
+            Renkaat.Add(tyre);
+        }
         public override string ToString()
         {
             string retval = "Ajoneuvo valmistaja :" + Brand + " malli: " + Model + "\nrenkaat:";
@@ -43,6 +52,11 @@ namespace JAMK.IT
                 {
                     retval += "\n" + tyre.ToString();
                 }
+            }
+            //ja listataan listan alkiot myös
+            foreach (Tyre tyre in Renkaat)
+            {
+                retval += "\n" + tyre.ToString();
             }
             return retval;
         }
