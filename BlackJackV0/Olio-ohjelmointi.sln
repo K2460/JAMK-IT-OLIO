@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtäviä", "..\Tehtäviä
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTV16S4", "..\TTV16S4\TTV16S4.csproj", "{75310069-FF15-4AC4-B3A6-52FDFCBEE458}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tuntiesmerkkejä", "..\tuntiesmerkkejä\tuntiesmerkkejä.csproj", "{B677A3AD-312E-4DC8-9013-DFAE7906BF6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{75310069-FF15-4AC4-B3A6-52FDFCBEE458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75310069-FF15-4AC4-B3A6-52FDFCBEE458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75310069-FF15-4AC4-B3A6-52FDFCBEE458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B677A3AD-312E-4DC8-9013-DFAE7906BF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B677A3AD-312E-4DC8-9013-DFAE7906BF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B677A3AD-312E-4DC8-9013-DFAE7906BF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B677A3AD-312E-4DC8-9013-DFAE7906BF6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
