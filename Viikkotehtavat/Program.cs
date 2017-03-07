@@ -15,9 +15,9 @@ namespace Viikkotehtävät
             //Tehtava3();
             //Tehtava4();
             //Tehtava5();
-            Tehtava6();
+            //Tehtava6();
             //Tehtava7();
-            //Tehtava8();
+            Tehtava8();
             //Tehtava9();
 
         }
