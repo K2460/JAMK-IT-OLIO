@@ -11,13 +11,13 @@ namespace Viikkotehtävät
         static void Main(string[] args)
         {
             //Tehtava1();
-            //Tehtava2();
+            Tehtava2();
             //Tehtava3();
             //Tehtava4();
             //Tehtava5();
             //Tehtava6();
             //Tehtava7();
-            Tehtava8();
+            //Tehtava8();
             //Tehtava9();
 
         }
@@ -26,25 +26,24 @@ namespace Viikkotehtävät
             //Tee ohjelma, joka tulostaa käyttäjän antamaa lukua (1, 2 tai 3) vastaavan luvun sanana (yksi, kaksi tai kolme). 
             //Jos käyttäjä syöttää jonkin muun luvun, tulee näytölle tulostaa teksti: "joku muu luku".
             Console.WriteLine("Anna 1, 2 tai 3 ja tulostan sen tekstinä");
-            string retval = Console.ReadLine();
-            int luku = int.Parse(retval);
-            if (luku == 1)
+            int number = Int32.Parse(Console.ReadLine());
+            if (number == 1)
             {
-                retval = "yksi";
+                Console.WriteLine("yksi");
             }
-            if (luku == 2)
+            else if (number == 2)
             {
-                retval = "kaksi";
+                Console.WriteLine("kaksi");
             }
-            if (luku == 3)
+            else if (number == 3)
             {
-                retval = "kolme";
+                Console.WriteLine("kolme");
             }
             else
             {
-                retval = "Joku muu luku";
+                Console.WriteLine("joku muu luku");
             }
-            Console.WriteLine(retval);
+
         }
 
         static void Tehtava2()
