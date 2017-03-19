@@ -11,10 +11,13 @@ namespace tehtäviä
         static void Main(string[] args)
         {
             //Harjoitus1();
-            Harjoitus3();
+            //Harjoitus3();
             //Harjoitus4();
             //Harjoitus5();
             //Harjoitus6();
+            //Harjoitus8();
+            //Harjoitus9();
+            Harjoitus10();
         }
         static void Harjoitus1()
         {
@@ -82,6 +85,56 @@ namespace tehtäviä
             int keskiarvo = (summa / 3);
 
             Console.WriteLine("summa " + summa + " ja keskiarvo " + keskiarvo);
+        }
+        static void Harjoitus8()
+        {
+            Console.Clear();
+            Console.Write("Anna kokonaisluku > ");
+            int luku1 = Int32.Parse(Console.ReadLine());
+
+            Console.Write("Anna kokonaisluku > ");
+            int luku2 = Int32.Parse(Console.ReadLine());
+
+            Console.Write("Anna kokonaisluku > ");
+            int luku3 = Int32.Parse(Console.ReadLine());
+
+            if (luku1 > luku2 && luku1 > luku3)
+            {
+                Console.WriteLine("Suurin luku on: " + luku1);
+            }
+            else if (luku2 > luku1 && luku2 > luku3)
+            {
+                Console.WriteLine("Suurin luku on: " + luku2);
+            }
+            else if (luku3 > luku1 && luku3 > luku2)
+            {
+                Console.WriteLine("Suurin luku on: " + luku3);
+            }
+        }
+        static void Harjoitus9()
+        {
+            Console.Clear();
+            Console.WriteLine("Summalaskin. Anna lukuja ja lopuksi luku 0 niin tulostan summan.");
+            List<int> luvut = new List<int>();
+            for (int x = 1; ; x++)
+            {
+                Console.WriteLine("Anna luku " + x + ": ");
+                int syote = int.Parse(Console.ReadLine());
+                if (syote == 0)
+                {
+                    break;
+                }
+                else
+                {
+                    luvut.Add(syote);
+                }
+            }
+            //TULOSTAA LUKUJEN SUMMAN
+            Console.WriteLine("Lukujen summa on: " + luvut.Sum());
+        }
+        static void Harjoitus10()
+        {
+
         }
     }
 }
