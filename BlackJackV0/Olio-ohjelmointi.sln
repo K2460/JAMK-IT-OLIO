@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YksikkoTestausta", "..\Yksi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YksikkoTestaustaTests", "..\YksikkoTestaustaTests\YksikkoTestaustaTests.csproj", "{AE61250F-245B-4085-A742-E08DC7DD7483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWPF", "..\MyFirstWPF\MyFirstWPF.csproj", "{818066EF-C36C-4531-BF6D-FD47A2D479AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{AE61250F-245B-4085-A742-E08DC7DD7483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE61250F-245B-4085-A742-E08DC7DD7483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE61250F-245B-4085-A742-E08DC7DD7483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818066EF-C36C-4531-BF6D-FD47A2D479AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818066EF-C36C-4531-BF6D-FD47A2D479AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818066EF-C36C-4531-BF6D-FD47A2D479AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818066EF-C36C-4531-BF6D-FD47A2D479AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
