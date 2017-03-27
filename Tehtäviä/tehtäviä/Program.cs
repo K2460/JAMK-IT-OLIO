@@ -16,8 +16,8 @@ namespace tehtäviä
             //Harjoitus5();
             //Harjoitus6();
             //Harjoitus8();
-            //Harjoitus9();
-            Harjoitus10();
+            Harjoitus9();
+            //Harjoitus10();
         }
         static void Harjoitus1()
         {

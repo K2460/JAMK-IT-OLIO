@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFtehtäviä.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFtehtäviä"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="txt1" HorizontalAlignment="Left" Margin="99,168,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="51" Width="122" FontSize="22" FontWeight="Bold"/>
+        <TextBlock x:Name="txt2" HorizontalAlignment="Left" Margin="295,168,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="47" Width="133" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="btnCars" Content="Cars" HorizontalAlignment="Left" Height="30" Margin="99,103,0,0" VerticalAlignment="Top" Width="67" Click="btnCars_Click"/>
+        <Button x:Name="btnTrucks" Content="Trucks" HorizontalAlignment="Left" Height="30" Margin="295,103,0,0" VerticalAlignment="Top" Width="84" Click="btnTrucks_Click"/>
+    </Grid>
+</Window>
