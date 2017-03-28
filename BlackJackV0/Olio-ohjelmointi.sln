@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWPF", "..\MyFirstWPF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFtehtäviä", "..\WPFtehtäviä\WPFtehtäviä.csproj", "{BA635AA5-F09F-43C7-BC11-12ADC40B0F27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShoppingList", "..\WPFShoppingList\WPFShoppingList.csproj", "{3BFB7F62-007B-45CC-9BFF-5BA780C01594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BA635AA5-F09F-43C7-BC11-12ADC40B0F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA635AA5-F09F-43C7-BC11-12ADC40B0F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA635AA5-F09F-43C7-BC11-12ADC40B0F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFB7F62-007B-45CC-9BFF-5BA780C01594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFB7F62-007B-45CC-9BFF-5BA780C01594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFB7F62-007B-45CC-9BFF-5BA780C01594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFB7F62-007B-45CC-9BFF-5BA780C01594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
